@@ -1,0 +1,369 @@
+html, body {
+  overflow-x: hidden;
+  height: auto;
+  margin: 0px;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Navbar Background */
+.navbar.bg-white {
+  background-color: #FFFFFF !important; /* White background */
+  border-bottom: 2px solid #01295F; /* Blue border */
+}
+
+/* Navbar Logo */
+#nav-logo {
+  filter: invert(34%) sepia(29%) saturate(748%) hue-rotate(174deg) brightness(93%) contrast(89%);
+}
+
+/* Navbar Links */
+.navbar .nav-link {
+  color: #01295F !important; /* Blue text */
+}
+
+.navbar .nav-link:hover {
+  color: #FAB515 !important; /* Gold text on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  z-index: 10000; /* Increase this value */
+}
+
+.dropdown-item {
+  color: #FAB515; /* Gold text */
+}
+
+.dropdown-item:hover {
+  color: #17DB4E; /* Green text on hover */
+}
+
+/* Additional Styling */
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.nav-item .bi {
+  color: #01295F; /* Blue icons */
+}
+
+/* Align Dropdown Items Vertically */
+.navbar-nav .nav-item.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust Dropdown Menu Position */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  top: 100%;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+.hero-section {
+  background: url('../media/backgrounds/background-image.webp') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  height: calc(600px + 5vw);
+  display: flex; /* Add this line */
+  align-items: center; /* Add this line */
+  justify-content: center; /* Add this line */
+}
+
+.hero-section .container {
+  position: relative;
+
+  text-align: center; /* Add this line if needed */
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .display-1 {
+  font-weight: bold;
+}
+
+.hero-section .display-4 {
+  font-size: 1.5rem;
+}
+
+.hero-section .btn {
+  font-size: 1rem;
+}
+
+
+
+/* Footer */
+footer {
+
+  background-color: #efefef; /* White background */
+  border-top: 2px solid #01295F; /* Blue border */
+}
+
+footer h5 {
+  color: #01295F; /* Blue text */
+}
+
+footer a {
+  color: #01295F; /* Blue text */
+}
+
+footer a:hover {
+  color: #FAB515; /* Gold text on hover */
+}
+
+footer p {
+  color: #01295F; /* Blue text */
+}
+
+.btn-custom {
+  font-size: 1rem;
+  background-color: #01295F; /* Blue color from the palette */
+  border: none;
+  color: #FAB515; /* Gold color from the palette */
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0205D3; /* Bright Blue color from the palette */
+  color: #fff;
+}
+
+#what-drives-us .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%; /* Ensures that the cards are of the same height */
+}
+
+#what-drives-us .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#what-drives-us .card-title {
+  color: #01295F; /* Blue color from the palette */
+  font-weight: bold;
+}
+
+#what-drives-us .card-text {
+  color: #0205D3; /* Bright Blue color from the palette */
+  font-size: 1rem;
+}
+
+#what-drives-us .card-img-top {
+  max-width: 150px; /* Increased size */
+  margin: 15px auto;
+  display: block;
+}
+
+#what-drives-us .row {
+  display: flex; /* Ensures that the cards are of the same height */
+  flex-wrap: wrap;
+}
+
+#what-drives-us .col-md-4 {
+  display: flex; /* Ensures that the cards are of the same height */
+}
+
+#what-drives-us .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distributes space evenly */
+}
+
+
+#news-events .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+#news-events .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#news-events .card-title {
+  color: #01295F;
+  font-weight: bold;
+}
+
+#news-events .card-text {
+  color: #0205D3;
+  font-size: 1rem;
+}
+
+#news-events .card-img-top {
+  max-width: 150px;
+  margin: 15px auto;
+  display: block;
+}
+
+#news-events .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#news-events .col-md-4 {
+  display: flex;
+}
+
+#news-events .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#who-we-are .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+#who-we-are .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#who-we-are .card-title {
+  color: #01295F;
+  font-weight: bold;
+}
+
+#who-we-are .card-text {
+  color: #0205D3;
+  font-size: 1rem;
+}
+
+#who-we-are .card-img-top {
+  max-width: 150px;
+  margin: 15px auto;
+  display: block;
+}
+
+#who-we-are .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#who-we-are .col-md-4 {
+  display: flex;
+}
+
+#who-we-are .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Custom styles */
+.section-style {
+  font-family: 'Metropolis-Regular', sans-serif;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+
+.custom-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.custom-address {
+  font-size: 1.2rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.contact-info {
+  color: #777;
+}
+
+.quick-link-col {
+  margin-bottom: 20px;
+}
+
+.quick-link {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+
+.we-are,
+.stronger-together {
+  -webkit-text-stroke: 1px #F7F7F7;  /* Text border */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);  /* Text shadow */
+}
+
+.we-are {
+  color: #2B59C3;
+}
+
+.stronger-together {
+  color: #82D310;
+}
+
+.learn-more-btn {
+  font-size: 1.2rem;
+  background-color: #2B59C3;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #82D310;
+  transform: scale(1.05);
+}
+
+.icon-style {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+section {
+  transition: all 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
