@@ -91,13 +91,10 @@ html, body {
 }
 
 .hero-section .container {
-  position: relative;
-
   text-align: center; /* Add this line if needed */
 }
 
 .hero-section .overlay {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;

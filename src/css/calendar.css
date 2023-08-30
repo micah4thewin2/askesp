@@ -1,0 +1,100 @@
+.calendar {
+  height: 600px;
+}
+
+html, body {
+  overflow-x: hidden;
+  height: auto;
+  margin: 0px;
+}
+.navbar {
+  position: relative;
+  z-index: 10000;
+}
+
+/* Navbar Background */
+.navbar.bg-white {
+  background-color: #FFFFFF !important; /* White background */
+  border-bottom: 2px solid #01295F; /* Blue border */
+}
+
+/* Navbar Logo */
+#nav-logo {
+  filter: invert(34%) sepia(29%) saturate(748%) hue-rotate(174deg) brightness(93%) contrast(89%);
+}
+
+/* Navbar Links */
+.navbar .nav-link {
+  color: #01295F !important; /* Blue text */
+}
+
+.navbar .nav-link:hover {
+  color: #FAB515 !important; /* Gold text on hover */
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  z-index: 10000; /* Increase this value */
+}
+
+.dropdown-item {
+  color: #FAB515; /* Gold text */
+}
+
+.dropdown-item:hover {
+  color: #17DB4E; /* Green text on hover */
+}
+
+/* Additional Styling */
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.nav-item .bi {
+  color: #01295F; /* Blue icons */
+}
+
+/* Align Dropdown Items Vertically */
+.navbar-nav .nav-item.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item.dropdown .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust Dropdown Menu Position */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  top: 100%;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#contractsDropdown {
+  z-index: 1001 !important;
+}
+
+.card {
+  z-index: -100 !important;
+}
+
+.row  {
+  z-index: -100 !important;
+}
+
+.container {
+  z-index: -100 !important;
+}
