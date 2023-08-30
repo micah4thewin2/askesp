@@ -87,14 +87,76 @@ html, body {
   z-index: 1001 !important;
 }
 
+/* ... (other styles remain the same) ... */
+
 .card {
-  z-index: -100 !important;
+  /* z-index: -100 !important; */ /* Commented out */
 }
 
 .row  {
-  z-index: -100 !important;
+  /* z-index: -100 !important; */ /* Commented out */
 }
 
 .container {
-  z-index: -100 !important;
+  /* z-index: -100 !important; */ /* Commented out */
+}
+
+/* ... (other styles remain the same) ... */
+
+
+.hero-section {
+  background: url('../media//backgrounds/background-image4.webp') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  height: calc(600px + 5vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .container {
+  text-align: center;
+}
+
+.hero-section .bg-dark {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .display-1 {
+  font-weight: bold;
+}
+
+.hero-section .lead {
+  font-size: 1.5rem;
+}
+
+.hero-section .btn {
+  font-size: 1rem;
+}
+
+#introduction h2 {
+  color: #2B59C3; /* Blue */
+}
+
+#introduction p {
+  line-height: 1.6;
+}
+
+#introduction h2 i.bi {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.we-are,
+.stronger-together {
+  -webkit-text-stroke: 1px #F7F7F7;  /* Text border */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);  /* Text shadow */
+}
+
+.we-are {
+  color: #2B59C3;
+}
+
+.stronger-together {
+  color: #82D310;
 }

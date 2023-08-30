@@ -90,10 +90,11 @@ html, body {
 
 
 .hero-section {
-  background: url('../media/backgrounds/background-image.webp') center/cover no-repeat;
+  background: url('../media/backgrounds/background-image8.webp') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(600px + 5vw);
+  height: calc(600px + 25vw);
+  max-height: 1000px;
   display: flex; /* Add this line */
   align-items: center; /* Add this line */
   justify-content: center; /* Add this line */
@@ -113,6 +114,7 @@ html, body {
 
 .hero-section .display-1 {
   font-weight: bold;
+  font-size: calc(30px + 3vw);
 }
 
 .hero-section .display-4 {
@@ -372,6 +374,23 @@ section {
 }
 
 section:hover {
-
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Existing styles remain the same */
+
+/* Additional or modified styles for Quick Links section */
+.quick-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Keep the text color */
+}
+
+.quick-link:hover {
+  color: inherit; /* Keep the text color on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.bi-link-45deg {
+  margin-right: 8px; /* Add some space between the icon and the text */
 }
