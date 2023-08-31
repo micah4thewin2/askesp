@@ -160,3 +160,38 @@ html, body {
 .stronger-together {
   color: #82D310;
 }
+
+/* General Card Styling */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title and Text Styling */
+.card-title {
+  color: #01295F;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #0205D3;
+  font-size: 1rem;
+}
+
+/* Flexbox for Card Layout and Row */
+.row, .col-md-4, .card-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-body {
+  flex-direction: column;
+  justify-content: space-between;
+}
