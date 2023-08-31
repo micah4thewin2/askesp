@@ -304,13 +304,3 @@ section:hover {
   font-size: 3rem; /* Adjust the size as needed */
   margin-bottom: 20px;
 }
-
-.card-img-overlay h3 {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border: solid;
-  border-color: grey;
-  border-width: 1px;
-  border-radius: 3px;
-
-}
