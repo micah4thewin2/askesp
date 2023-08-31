@@ -68,3 +68,19 @@ a {
   letter-spacing: 2px;
   line-height: 30px;
 }
+
+/* Default styles for all devices */
+.we-are,
+.stronger-together {
+  -webkit-text-stroke: 1px #F7F7F7;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* iOS specific styles */
+@media screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+  .we-are,
+  .stronger-together {
+    -webkit-text-stroke: 0.5px #F7F7F7;  /* Adjust stroke width */
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.1);  /* Adjust shadow */
+  }
+}

@@ -203,4 +203,5 @@ html, body {
 .scrollable-text {
   height: 100px; /* Set a fixed height */
   overflow-y: auto; /* Add scroll if content overflows */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
