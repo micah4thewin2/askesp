@@ -193,3 +193,14 @@ html, body {
 .hero-section #governance .btn-custom {
   background-color: #28a745; /* Change color as needed */
 }
+
+
+.img-fluid {
+ width: 100px;
+ margin: 15px;
+}
+
+.scrollable-text {
+  height: 100px; /* Set a fixed height */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
