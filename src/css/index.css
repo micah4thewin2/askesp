@@ -88,14 +88,11 @@ html, body {
   z-index: -100 !important;
 }
 
-
 .hero-section {
   background: url('../media/backgrounds/background-image8.webp') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(100vh - 100px);
-  min-height: 600px;
-
+  height: calc(100vh - 90px);
   display: flex; /* Add this line */
   align-items: center; /* Add this line */
   justify-content: center; /* Add this line */
@@ -300,4 +297,20 @@ section:hover {
 
 .bi-link-45deg {
   margin-right: 8px; /* Add some space between the icon and the text */
+}
+
+/* Icon above Driving Directions */
+.bi-sign-turn-right {
+  font-size: 3rem; /* Adjust the size as needed */
+  margin-bottom: 20px;
+}
+
+.card-img-overlay h3 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 3px;
+
 }
