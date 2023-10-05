@@ -157,69 +157,77 @@
     </header>
 
     <!-- Introduction Section -->
-    <section id="introduction" class="hero-section">
+    <section class="hero-section" id="introduction">
       <div class="container">
         <div class="bg-dark border border-2 rounded border-white bg-opacity-75 p-2 m-2">
-        <h1 class="text-center display-1" >
-  <span class="we-are">Why</span> <span class="stronger-together">Join?</span>
-</h1>
-
-        <div id="typed-strings">
-          <p class="lead text-center lead">The ASK ESP Union represents approximately 2,500 educators within Salem-Keizer Public Schools.</p>
-                 <p class="lead text-center lead">Promoting excellence in education and student achievement.</p>
-                 <p class="lead text-center lead">Advocating for the rights of education support professionals.</p>
+          <h1 class="text-center display-1">
+            <span class="we-are">WHY</span> <span class="stronger-together">JOIN?</span>
+          </h1>
+          <div id="typed-strings">
+            <p class="lead text-center lead">The ASK ESP Union represents approximately 2,800 educators within Salem-Keizer Public Schools.</p>
+            <p class="lead text-center lead">Promoting excellence in education and student achievement.</p>
+            <p class="lead text-center lead">Advocating for the rights of education support professionals.</p>
+          </div>
+          <span class="text-center lead" id="typed"></span>
+          <div class="text-center mt-4 tex">
+            <a alt="Learn More" class="btn btn-custom learn-more-btn text-light" href="#memorandum-membership" title="Learn More">
+              <i class="bi bi-arrow-right-circle-fill icon-style"></i> Learn More
+            </a>
+            <button class="btn btn-outline-light ms-2" data-bs-target="#membershipModal" data-bs-toggle="modal" type="button">Become a Member</button>
+          </div>
         </div>
-        <span id="typed" class="text-center lead"></span> <!-- Changed class to "lead" -->
-        <div class="text-center mt-4 tex">
-          <a href="#memorandum-membership" class="btn btn-custom learn-more-btn text-light" title="Learn More" alt="Learn More">
-            <i class="bi bi-arrow-right-circle-fill icon-style"></i> Learn More
-          </a>
-        </div>
-</div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div aria-hidden="true" aria-labelledby="membershipModalLabel" class="modal fade" id="membershipModal" tabindex="-1">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="membershipModalLabel">Please Review the Membership Form-Terms and Conditions</h5>
+            <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+          </div>
+          <div class="modal-body">
+            Please Review the Membership Form-Terms and Conditions and either print the copy, complete and drop off to the ASK ESP office at 2540 Coral Ave NE Salem OR 97305 or email your completed copy to Marianne.fairchild@oregoned.org OR simply complete the online registration below. Questions should be directed to 503-364-8612
+            <!-- Embedding the provided form and scripts -->
+            <link as="script" crossorigin="anonymous" href="https://static.everyaction.com/ea-actiontag/at.js" rel="preload"/>
+            <link as="style" href="https://static.everyaction.com/ea-actiontag/at.min.css" rel="preload"/>
+            <script crossorigin="anonymous" src="https://static.everyaction.com/ea-actiontag/at.js" type="text/javascript"></script>
+            <div class="ngp-form" data-databag="everybody" data-databag-endpoint="https://profile.ngpvan.com" data-fastaction-endpoint="https://fastaction.ngpvan.com" data-fastaction-nologin="true" data-form-url="https://secure.everyaction.com/v1/Forms/f-m_MdWMzkGLe4eCITppbA2" data-inline-errors="true" data-mobile-autofocus="false">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
       </div>
     </section>
 
     <!-- Memorandum and Membership Section -->
-<section id="memorandum-membership" class="py-5 bg-light" data-aos="fade-up">
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-<div class="card m-3 bg-white  p-5 border rounded border-2 border-secondary " id="about-pdf">
-        <h2 class="text-start display-6 stronger-together">
-          <i class="bi bi-file-earmark-text"></i> Memorandum of Understanding
-        </h2>
-        <p class="text-start lead text-secondary fw-normal">
-          View and download the ASK ESP Memorandum of understanding PDF.
-        </p>
-        <div class="text-center mt-4" data-aos="fade-up">
-          <a href="./src/PDF/Forms/2022_0833 MOU ASK ESP Job Classification_Range 8-8 SIGNED.pdf" target="_blank" class="btn btn-custom learn-more-btn" title="Download PDF" alt="Download PDF">
-            <i class="bi bi-download icon-style"></i> Download PDF
-          </a>
+    <section class="py-5 bg-light" data-aos="fade-up" id="memorandum-membership">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="card m-3 bg-white p-5 border rounded border-2 border-secondary" id="about-pdf">
+              <h2 class="text-start display-6 we-are">
+                <i class="bi bi-person-plus-fill"></i> Become a Member
+              </h2>
+              <p class="text-start lead text-secondary fw-normal">
+                Fill out an application online and become a member of Association of Salem Keizer Education Support Professionals (ASK ESP).
+              </p>
+              <div class="text-center mt-4" data-aos="fade-up">
+                <a alt="Apply Now" class="btn btn-custom learn-more-btn" href="./src/PDF/Forms/ASK ESP-OEA Membership Form 2020-21.pdf" target="_blank" title="Apply Now">
+                  <i class="bi bi-box-arrow-up icon-style"></i> Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-      <div class="col-md-6 ">
-        <div class="card m-3 bg-white  p-5 border rounded border-2 border-secondary " id="about-pdf">
-        <h2 class="text-start display-6 we-are">
-          <i class="bi bi-person-plus-fill"></i> Become a Member
-        </h2>
-        <p class="text-start lead text-secondary fw-normal">
-          Fill out an application online and become a member of Association of Salem Keizer Education Support Professionals (ASK ESP).
-        </p>
-        <div class="text-center mt-4" data-aos="fade-up">
-          <a href="./src/PDF/Forms/ASK ESP-OEA Membership Form 2020-21.pdf" target="_blank" class="btn btn-custom learn-more-btn" title="Apply Now" alt="Apply Now">
-            <i class="bi bi-box-arrow-up icon-style"></i> Apply Now
-          </a>
-        </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+
 
 <!-- Your Contract Section -->
 <section id="your-contract" class="py-5 bg-light" data-aos="fade-up">
@@ -381,7 +389,7 @@
             <ul class="list-unstyled">
               <li data-aos="fade-right" data-aos-delay="200"><a href="why_join_ask_esp.html" class="text-secondary text-decoration-none" alt="Why Join ASK ESP" title="Why Join ASK ESP">Why Join?</a></li>
               <li data-aos="fade-right" data-aos-delay="300"><a href="governance.html" class="text-secondary text-decoration-none" alt="Governance Information" title="Governance Information">Governance</a></li>
-              
+
             </ul>
           </div>
           <div class="col-md-4">
