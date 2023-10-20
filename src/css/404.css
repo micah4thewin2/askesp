@@ -1,0 +1,6 @@
+#secondNav {
+    z-index: 1  !important;
+}
+#firstNav {
+    z-index: 1001  !important;
+}

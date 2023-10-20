@@ -132,3 +132,10 @@ html, body {
 #about-pdf {
   min-height: 300px;
 }
+
+#secondNav {
+    z-index: 1  !important;
+}
+#firstNav {
+    z-index: 1001  !important;
+}

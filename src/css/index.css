@@ -8,6 +8,11 @@ html, body {
   z-index: 10000;
 }
 
+.dropdown-item {
+    position: relative  !important;
+    z-index: 10001  !important;
+}
+
 /* Navbar Background */
 .navbar.bg-white {
   background-color: #FFFFFF !important; /* White background */
@@ -314,4 +319,11 @@ section:hover {
 .bi-sign-turn-right {
   font-size: 3rem; /* Adjust the size as needed */
   margin-bottom: 20px;
+}
+
+#secondNav {
+    z-index: 1  !important;
+}
+#firstNav {
+    z-index: 1001  !important;
 }

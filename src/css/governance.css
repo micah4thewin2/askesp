@@ -205,3 +205,10 @@ html, body {
   overflow-y: auto; /* Add scroll if content overflows */
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
 }
+
+#secondNav {
+    z-index: 1  !important;
+}
+#firstNav {
+    z-index: 1001  !important;
+}

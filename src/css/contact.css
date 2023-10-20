@@ -180,3 +180,10 @@ html, body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+#secondNav {
+    z-index: 1  !important;
+}
+#firstNav {
+    z-index: 1001  !important;
+}
