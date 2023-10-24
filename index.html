@@ -152,34 +152,35 @@
                     <!-- Placeholders right-justified on a new line -->
                     <div class="d-flex justify-content-end w-100">
                     </div>
+
                     <div class="col-12" id='secondNav'>
-                       <!-- Bootstrap Column -->
-                       <div class="d-flex justify-content-end w-100">
-                          <ul class="navbar-nav row d-flex flex-row flex-nowrap">
-                             <!-- Added row class -->
-                             <!-- Contract Negotiations Dropdown -->
-                             <li class="nav-item dropdown-center m-2 p-1 col" data-aos="zoom-in" title="Contract Negotiations">
-                                <!-- Added col class -->
-                                <a class="nav-link dropdown-toggle" href="#" id="contractNegotiationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Contract Negotiations Menu">
-                                <i class="bi bi-file-earmark-text mx-2"></i> Contract Negotiations
-                                </a>
-                                <ul class="dropdown-menu m-2 p-1" aria-labelledby="contractNegotiationsDropdown">
-                                   <li><a class="dropdown-item bg-light" href="#" alt="Negotiation Details">Negotiation Details</a></li>
-                                </ul>
-                             </li>
-                             <!-- Collective Bargaining Dropdown -->
-                             <li class="nav-item dropdown-center m-2 p-1 col" data-aos="zoom-in" title="Collective Bargaining">
-                                <!-- Added col class -->
-                                <a class="nav-link dropdown-toggle" href="#" id="collectiveBargainingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Collective Bargaining Menu">
-                                <i class="bi bi-people mx-2"></i> Collective Bargaining
-                                </a>
-                                <ul class="dropdown-menu m-2 p-1" aria-labelledby="collectiveBargainingDropdown">
-                                   <li><a class="dropdown-item bg-light" href="#" alt="Bargaining Details">Bargaining Details</a></li>
-                                </ul>
-                             </li>
+                      <!-- Bootstrap Column -->
+                      <div class="d-flex justify-content-end">
+                          <ul class="navbar-nav d-flex flex-row flex-nowrap text-sm">
+                              <!-- Contract Negotiations Dropdown -->
+                              <li class="nav-item dropdown-center mx-1 px-1" data-aos="zoom-in" title="Contract Negotiations">
+                                  <a class="nav-link dropdown-toggle" href="#" id="contractNegotiationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Contract Negotiations Menu">
+                                      <i class="bi bi-file-earmark-text mx-1"></i> Negotiations
+                                  </a>
+                                  <ul class="dropdown-menu mx-1 px-1" aria-labelledby="contractNegotiationsDropdown">
+                                      <li><a class="dropdown-item bg-light" href="#" alt="Negotiation Details">Negotiation Details</a></li>
+                                  </ul>
+                              </li>
+                              <!-- Collective Bargaining Dropdown -->
+                              <li class="nav-item dropdown-center mx-1 px-1" data-aos="zoom-in" title="Collective Bargaining">
+                                  <a class="nav-link dropdown-toggle" href="#" id="collectiveBargainingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Collective Bargaining Menu">
+                                      <i class="bi bi-people mx-1"></i> Bargaining
+                                  </a>
+                                  <ul class="dropdown-menu mx-1 px-1" aria-labelledby="collectiveBargainingDropdown">
+                                      <li><a class="dropdown-item bg-light" href="#" alt="Bargaining Details">Bargaining Details</a></li>
+                                  </ul>
+                              </li>
                           </ul>
-                       </div>
-                    </div>
+                      </div>
+                  </div>
+
+
+
                  </div>
               </div>
            </div>
@@ -215,6 +216,10 @@
                      <a href="#what-drives-us" class="btn btn-custom learn-more-btn text-light" title="Learn More" alt="Learn More">
                      <i class="bi bi-arrow-right-circle-fill icon-style" data-aos="fade-up"></i> Learn More
                      </a>
+                     <a href="#" class="btn btn-custom join-now-btn text-light ml-2" data-bs-toggle="modal" data-bs-target="#joinNowModal">
+                       <i class="bi bi-plus-circle-fill icon-style" data-aos="fade-up"></i> Join Now
+                    </a>
+
                   </div>
                </div>
             </div>
@@ -484,6 +489,48 @@
             </div>
          </section>
       </main>
+
+      <div class="modal fade" id="joinNowModal" tabindex="-1" aria-labelledby="joinNowModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="joinNowModalLabel">Join Us</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Please Review the Membership Form-Terms and Conditions and either print the copy, complete and drop off to the ASK ESP office at 2540 Coral Ave NE Salem OR 97305 or email your completed copy to Marianne.fairchild@oregoned.org OR simply complete the online registration below. Questions should be directed to 503-364-8612.
+                    </p>
+                      <!-- Your form's embed script and container -->
+                      <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.js' as='script' crossorigin='anonymous'>
+                      <link rel='preload' href='https://static.everyaction.com/ea-actiontag/at.min.css' as='style'>
+                      <script type='text/javascript' src='https://static.everyaction.com/ea-actiontag/at.js' crossorigin='anonymous'></script>
+                      <div class="ngp-form"
+                         data-form-url=https://secure.everyaction.com/v1/Forms/f-m_MdWMzkGLe4eCITppbA2
+                         data-fastaction-endpoint=https://fastaction.ngpvan.com
+                         data-inline-errors="true"
+                         data-fastaction-nologin="true"
+                         data-databag-endpoint=https://profile.ngpvan.com
+                         data-databag="everybody"
+                         data-mobile-autofocus="false">
+                      </div>
+                        <div class="w-100 d-flex justify-content-center">
+                      <!-- The PDF Button -->
+                      <a href="./src/PDF/Forms/ASK ESP MEMBERSHIP FORM-1.pdf" class="btn btn-secondary mt-3 mx-auto" target="_blank">Member Form Terms and Conditions PDF</a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+
+
       <footer class="bg-dark border-top" title="ASK ESP Footer">
          <div class="container py-4">
             <div class="row">
