@@ -108,7 +108,7 @@ html, body {
   background: url('../media//backgrounds/background-image4.webp') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(600px + 5vw);
+  height: calc(600px + 10vw);
   display: flex;
   align-items: center;
   justify-content: center;

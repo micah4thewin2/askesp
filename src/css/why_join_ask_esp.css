@@ -84,7 +84,7 @@ html, body {
   background: url('../media//backgrounds/background-image7.webp') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(600px + 5vw);
+  height: calc(600px + 10vw);
   display: flex; /* Add this line */
   align-items: center; /* Add this line */
   justify-content: center; /* Add this line */
@@ -138,4 +138,8 @@ html, body {
 }
 #firstNav {
     z-index: 1001  !important;
+}
+
+#about-pdf {
+  max-width: 1000px;
 }

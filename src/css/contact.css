@@ -89,10 +89,10 @@ html, body {
 
 /* Contact Us Section */
 #contact-us {
-  background: url('../media//backgrounds/background-image5.webp') center/cover no-repeat;
+  background: url('../media//backgrounds/background-image12.webp') center/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(600px + 5vw);
+  height: calc(600px + 10vw);
   display: flex;
   align-items: center;
   justify-content: center;

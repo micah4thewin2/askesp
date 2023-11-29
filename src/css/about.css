@@ -91,10 +91,10 @@ html, body {
 
 
 .hero-section {
-  background: url('../media//backgrounds/background-image3.webp') center/cover no-repeat;
+  background: url('../media//backgrounds/background-image8.webp') center top/cover no-repeat;
   color: #fff;
   padding: 100px 0;
-  height: calc(600px + 5vw);
+  height: calc(600px + 10vw);
   display: flex; /* Add this line */
   align-items: center; /* Add this line */
   justify-content: center; /* Add this line */

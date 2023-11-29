@@ -27,6 +27,8 @@
                            </a>
                            <ul class="dropdown-menu m-2 p-1" aria-labelledby="aboutDropdown">
                               <li><a class="dropdown-item bg-light" href="about.html" alt="About Us">About Us</a></li>
+                              <li><a class="dropdown-item bg-light" href="governance.html" alt="Governance and Board Members">Our Government</a></li>
+                              <li><a class="dropdown-item bg-light" href="why_join_ask_esp.html" alt="Why Join Ask Esp?">Why Join Us?</a></li>
                            </ul>
                         </li>
                         <!-- Contracts Dropdown -->
@@ -50,7 +52,7 @@
                            </ul>
                         </li>
                         <!-- Newsletters Dropdown -->
-                        <li class="nav-item dropdown-center m-2 p-1" data-aos="zoom-in" title="Newsletters">
+                        <li class="nav-item dropdown-center m-2 p-1" data-aos="zoom-in" title="Newsletters" style="display:none;">
                            <a class="nav-link dropdown-toggle" href="#" id="newslettersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Newsletters Menu">
                            <i class="bi bi-newspaper mx-2"></i> Newsletters
                            </a>
@@ -82,7 +84,7 @@
                            </ul>
                         </li>
                         <!-- Calendar -->
-                        <li class="nav-item m-2 p-1" data-aos="zoom-in" title="Calendar">
+                        <li class="nav-item m-2 p-1" data-aos="zoom-in" title="Calendar" style="display:none;">
                            <a class="nav-link" href="calendar.html" alt="ASK ESP Event Calendar"><i class="bi bi-calendar mx-2"></i> Calendar</a>
                         </li>
                         <!-- Contact -->
@@ -95,34 +97,35 @@
                <!-- Placeholders right-justified on a new line -->
                <div class="d-flex justify-content-end w-100">
                </div>
-               <div class="col-12" id='secondNav'>
-                  <!-- Bootstrap Column -->
-                  <div class="d-flex justify-content-end w-100">
-                     <ul class="navbar-nav row d-flex flex-row flex-nowrap">
-                        <!-- Added row class -->
-                        <!-- Contract Negotiations Dropdown -->
-                        <li class="nav-item dropdown-center m-2 p-1 col" data-aos="zoom-in" title="Contract Negotiations">
-                           <!-- Added col class -->
-                           <a class="nav-link dropdown-toggle" href="#" id="contractNegotiationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Contract Negotiations Menu">
-                           <i class="bi bi-file-earmark-text mx-2"></i> Contract Negotiations
-                           </a>
-                           <ul class="dropdown-menu m-2 p-1" aria-labelledby="contractNegotiationsDropdown">
-                              <li><a class="dropdown-item bg-light" href="#" alt="Negotiation Details">Negotiation Details</a></li>
-                           </ul>
-                        </li>
-                        <!-- Collective Bargaining Dropdown -->
-                        <li class="nav-item dropdown-center m-2 p-1 col" data-aos="zoom-in" title="Collective Bargaining">
-                           <!-- Added col class -->
-                           <a class="nav-link dropdown-toggle" href="#" id="collectiveBargainingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Collective Bargaining Menu">
-                           <i class="bi bi-people mx-2"></i> Collective Bargaining
-                           </a>
-                           <ul class="dropdown-menu m-2 p-1" aria-labelledby="collectiveBargainingDropdown">
-                              <li><a class="dropdown-item bg-light" href="#" alt="Bargaining Details">Bargaining Details</a></li>
-                           </ul>
-                        </li>
+
+               <div class="col-12" id='secondNav' style="display:none;">
+                 <!-- Bootstrap Column -->
+                 <div class="d-flex justify-content-end">
+                     <ul class="navbar-nav d-flex flex-row flex-nowrap text-sm">
+                         <!-- Contract Negotiations Dropdown -->
+                         <li class="nav-item dropdown-center mx-1 px-1" data-aos="zoom-in" title="Contract Negotiations">
+                             <a class="nav-link dropdown-toggle" href="#" id="contractNegotiationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Contract Negotiations Menu">
+                                 <i class="bi bi-file-earmark-text mx-1"></i> Negotiations
+                             </a>
+                             <ul class="dropdown-menu mx-1 px-1" aria-labelledby="contractNegotiationsDropdown">
+                                 <li><a class="dropdown-item bg-light" href="#" alt="Negotiation Details">Negotiation Details</a></li>
+                             </ul>
+                         </li>
+                         <!-- Collective Bargaining Dropdown -->
+                         <li class="nav-item dropdown-center mx-1 px-1" data-aos="zoom-in" title="Collective Bargaining">
+                             <a class="nav-link dropdown-toggle" href="#" id="collectiveBargainingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Collective Bargaining Menu">
+                                 <i class="bi bi-people mx-1"></i> Bargaining
+                             </a>
+                             <ul class="dropdown-menu mx-1 px-1" aria-labelledby="collectiveBargainingDropdown">
+                                 <li><a class="dropdown-item bg-light" href="#" alt="Bargaining Details">Bargaining Details</a></li>
+                             </ul>
+                         </li>
                      </ul>
-                  </div>
-               </div>
+                 </div>
+             </div>
+
+
+
             </div>
          </div>
       </div>

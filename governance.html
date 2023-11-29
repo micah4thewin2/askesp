@@ -84,6 +84,8 @@
                                 </a>
                                 <ul class="dropdown-menu m-2 p-1" aria-labelledby="aboutDropdown">
                                    <li><a class="dropdown-item bg-light" href="about.html" alt="About Us">About Us</a></li>
+                                   <li><a class="dropdown-item bg-light" href="governance.html" alt="Governance and Board Members">Our Government</a></li>
+                                   <li><a class="dropdown-item bg-light" href="why_join_ask_esp.html" alt="Why Join Ask Esp?">Why Join Us?</a></li>
                                 </ul>
                              </li>
                              <!-- Contracts Dropdown -->
@@ -107,7 +109,7 @@
                                 </ul>
                              </li>
                              <!-- Newsletters Dropdown -->
-                             <li class="nav-item dropdown-center m-2 p-1" data-aos="zoom-in" title="Newsletters">
+                             <li class="nav-item dropdown-center m-2 p-1" data-aos="zoom-in" title="Newsletters" style="display:none;">
                                 <a class="nav-link dropdown-toggle" href="#" id="newslettersDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" alt="Newsletters Menu">
                                 <i class="bi bi-newspaper mx-2"></i> Newsletters
                                 </a>
@@ -139,7 +141,7 @@
                                 </ul>
                              </li>
                              <!-- Calendar -->
-                             <li class="nav-item m-2 p-1" data-aos="zoom-in" title="Calendar">
+                             <li class="nav-item m-2 p-1" data-aos="zoom-in" title="Calendar" style="display:none;">
                                 <a class="nav-link" href="calendar.html" alt="ASK ESP Event Calendar"><i class="bi bi-calendar mx-2"></i> Calendar</a>
                              </li>
                              <!-- Contact -->
@@ -153,7 +155,7 @@
                     <div class="d-flex justify-content-end w-100">
                     </div>
 
-                    <div class="col-12" id='secondNav'>
+                    <div class="col-12" id='secondNav' style="display:none;">
                       <!-- Bootstrap Column -->
                       <div class="d-flex justify-content-end">
                           <ul class="navbar-nav d-flex flex-row flex-nowrap text-sm">
@@ -202,7 +204,7 @@
                </div>
                <span id="typed" class="text-center lead"></span>
                <div class="text-center mt-4">
-                  <a href="#more-info" class="btn btn-custom text-light">
+                  <a href="#board-members" class="btn btn-custom text-light">
                   <i class="bi bi-arrow-right-circle-fill icon-style"></i> Learn More
                   </a>
                </div>
@@ -216,7 +218,7 @@
             </div>
          </div>
          <!-- 2023 Election Candidates -->
-         <div class="row mt-5 mx-3" id="more-info">
+         <div class="row mt-5 mx-3" id="more-info" style="display:none;">
             <div class="col-md-12">
                <div class="card my-1 p-2 border rounded border-1 border-secondary">
                   <div class="card-body bg-light border border-1 rounded">
@@ -227,9 +229,9 @@
                            <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
                            <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-6 text-muted">President</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
+                                 <p class="card-text fs-6 text-muted">
                                     Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
                                  </p>
                               </div>
@@ -240,9 +242,9 @@
                            <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
                            <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-6 text-muted">President</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
+                                 <p class="card-text fs-6 text-muted">
                                     Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
                                  </p>
                               </div>
@@ -253,9 +255,9 @@
                            <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
                            <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-5 text-muted">President</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
+                                 <p class="card-text fs-6 text-muted">
                                     Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
                                  </p>
                               </div>
@@ -267,7 +269,7 @@
             </div>
          </div>
          <!-- Current Board Members -->
-         <div class="row mt-5 mx-3">
+         <div class="row mt-5 mx-3" id="board-members">
             <div class="col-md-12" data-aos="fade-up">
                <div class="card my-1 p-2 border rounded border-1 border-secondary">
                   <div class="card-body bg-light border border-1 rounded">
@@ -275,39 +277,78 @@
                      <div class="row">
                         <!-- Board Member 1 -->
                         <div class="col-md-4 text-center my-2">
-                           <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <img src="./src/media/board_profiles/EDIE BUCHANAN.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
                            <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-5 text-muted">President</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
-                                    Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021. I am grateful and humbled for the honor to help lead our Executive Board and our membership to organize for our mission of continuing to work for: Socioeconomic justice & equity, solidarity and unity, job security, opportunities for professional growth, a safe workplace and a healthy work environment. Please come join us! I believe in the power of union membership; that union membership means being part of a family. We all need to be involved and have a place to work toward our mission. We do so for our students, our community, and ourselves because we know that a happy, healthy workplace is best for students! You can email me at president@askesp.org
                                  </p>
                               </div>
                            </div>
                         </div>
                         <!-- Board Member 2 -->
                         <div class="col-md-4 text-center my-2">
-                           <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
-                           <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
+                           <img src="./src/media/board_profiles/JEFF JABIN.jpg" alt="Board Member 2" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <h3 class="card-title fs-5 bw-bolder text-uppercase">JEFF JABIN</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-5 text-muted">Vice President</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
-                                    Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: I'm the lead custodian at Whiteaker Middle School (but Maria is the boss). I have 17 years in the department and am an advocate for everyone that I can be. I hope to make our department, and thereby the district as a whole, a better place to work. You can email me at vicepresident@askesp.org.
                                  </p>
                               </div>
                            </div>
                         </div>
                         <!-- Board Member 3 -->
                         <div class="col-md-4 text-center my-2">
-                           <img src="./src/media/board_profiles/edie.jpg" alt="Board Member 1" class="img-fluid rounded-circle border border-2 border-dark shadow">
-                           <h3 class="card-title fs-5 bw-bolder text-uppercase">EDIE BUCHANAN</h3>
+                           <img src="./src/media/board_profiles/DARLENE ANDRUS.PNG" alt="Board Member 3" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <h3 class="card-title fs-5 bw-bolder text-uppercase">DARLENE ANDRUS</h3>
                            <div class="card-body bg-white border border-1 rounded">
-                              <p class="card-text">President</p>
+                              <p class="card-text fs-5 text-muted">Racial Equity & Civil Rights Director</p>
                               <div class="scrollable-text">
-                                 <p class="card-text">
-                                    Bio: I have worked for the SKSD district since 2007 as an Administrative Assistant for the Secondary Education office. I was recently elected to serve as our President of ASK ESP, after serving 4 years as Secretary. I took office on August 1, 2021.
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: I am currently serving my second term as Racial Equity & Civil Rights Director. I have been with Salem-Keizer Public Schools since August 2012, and I presently work as an Administrative Secretary in Human Resources (Staff Quality). I spent 30 years in the corporate sector before coming to work for SKPS, and my overall experience in the workforce has shown me the many challenges employees face. As a newer member of the Board, I am happy to be helping others by serving those who don’t have a voice and making a difference for those experiencing disparities. The work ASK ESP does is invaluable, and I am honored and humbled to be working alongside people who are dedicated to representing the best interest of our members. Email me at racialequitycivilrights@askesp.org.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Board Member 4 -->
+                        <div class="col-md-4 text-center my-2">
+                           <img src="./src/media/board_profiles/DANA CANNING.jpg" alt="Board Member 4" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <h3 class="card-title fs-5 bw-bolder text-uppercase">DANA CANNING</h3>
+                           <div class="card-body bg-white border border-1 rounded">
+                              <p class="card-text fs-5 text-muted">Transportation Director</p>
+                              <div class="scrollable-text">
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: School bus driver for Special needs. I recently joined the board of Ask-Esp as Transportation Director, as my goal was to take a more active role in our union. I still like baking, if you catch me on a Friday I may have a treat for you. You can email me at transportation@askesp.org.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Board Member 5 -->
+                        <div class="col-md-4 text-center my-2">
+                           <img src="./src/media/board_profiles/SANDY SANDOVAL.jpg" alt="Board Member 5" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <h3 class="card-title fs-5 bw-bolder text-uppercase">SANDY SANDOVAL</h3>
+                           <div class="card-body bg-white border border-1 rounded">
+                              <p class="card-text fs-5 text-muted">Secretary</p>
+                              <div class="scrollable-text">
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: I have been with the district 18 years. I have been a driver of students with special needs. These students have been my Superhero's!! They are the reason I am here today!!I have been recently awarded a position to the ASK-ESP as Secretary, an officer positon.  I am looking forward to serving in this new role.  I am an artist in my down time and love drawing your loved ones or pets!! My favorite times are with my family! You can email me at at secretary@askesp.org
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Board Member 6 -->
+                        <div class="col-md-4 text-center my-2">
+                           <img src="./src/media/board_profiles/BRIAN ZAUBER REED.jpg" alt="Board Member 6" class="img-fluid rounded-circle border border-2 border-dark shadow">
+                           <h3 class="card-title fs-5 bw-bolder text-uppercase">BRIAN ZAUBER REED</h3>
+                           <div class="card-body bg-white border border-1 rounded">
+                              <p class="card-text fs-5 text-muted">Director at Large II</p>
+                              <div class="scrollable-text">
+                                 <p class="card-text fs-6 text-muted">
+                                    Bio: I currently serve as a Security specialist at Houck MS. and recently elected as your  Director at large 2. I have extensive background in Asset Protection, Operations & Investigations. I currently hold a certification in Wicklander and Zulawski investigative interviewing. I also enjoyed my summers as a Oregon Parks Night Enforcement Ranger. I have approximately 14 years experience as a project manager in Bio-recovery, Disease Control and Abatement. I also had the privilege of serving my community as a Firefighter-EMT and Emergency Response Chaplain for over 10 years. I currently hold several certifications with FEMA - ICS: 100, 200, 300 and 400 and a Bachelor's degree in emergency management and a minor in Phycology. I had the honor to be a part of the Ford Leadership school for rural development in Stayton Oregon. In summary, I have a unique skill set and can offer a wide and varied experience to my organization. At the end of the day, I believe that a place of employment should be more than a "job"; it should be a calling. You can email me at atlargetwo@askesp.org.
                                  </p>
                               </div>
                            </div>
@@ -317,6 +358,7 @@
                </div>
             </div>
          </div>
+
       </main>
       <footer class="bg-dark border-top" title="ASK ESP Footer">
          <div class="container py-4">
